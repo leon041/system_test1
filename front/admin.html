@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title> Admin page</title>
+    
+     <style data-brackets-id='258' type="text/css">
+  body {
+    padding:0;
+    background-color: #ffffff
+    
+  }
+         input{
+             width:95% ;
+         }
+         
+  .all{
+    background-color: #ffffff;
+  }
+  
+  .create{
+    margin: 20px auto;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+   display:flex;
+  }
+
+  form{
+
+    margin: 20px ;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="text"], select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  nav{
+border-bottom: 1px solid #ccc;
+}
+nav ul{
+display: table;
+margin: 0px;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+border-left: 1px solid #ccc;
+}
+nav ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li a:hover{
+background-color:#3142e0;
+}
+
+  #threadlist{
+    display: flex;
+  }      
+        
+         .forms{
+            width: 20%;
+             border: 2px solid #000000;
+             margin-right: 5%;
+         }    
+    </style>
+</head>
+<body>
+     <nav>
+    <ul>
+    <li><a href=”./home.html”><h4>Home</h4></a></li>
+    <li><a data-brackets-id='263' href="user.html"> <h4 data-brackets-id='264'>User Page</h4> </a></li>
+    <li><a data-brackets-id='265' href="/connected/auth/authenticated/html/admin.html"> <h4 data-brackets-id='266'>Authentication Page</h4> </a></li>
+    </ul>
+    </nav>
+    
+	<h1>  Admin page </h1>
+	<h2>  in this page, you can change the team title , team user mail , your password and edit admin user .</h2>
+	
+    <div class="create">
+        <div class="forms">
+	<h3> teamuser edit </h3>
+	<form action="/connected/auth/authenticated/teamuser/add" method="post">
+	    <section>
+	        <label for="new-mail">Add teamuser Mail</label>
+	        <input id="new-mail" name="new_mail" type="email" required>
+	    </section>
+		<button type="submit">register email into this team</button>
+	</form>
+    
+	<form action="/connected/auth/authenticated/teamuser/delete" method="post">
+	    <section>
+	        <label for="del-mail">Delete teamuser Mail</label>
+	        <input id="del-mail" name="del_mail" type="email" required>
+	    </section>
+		<button type="submit">delete registerd email from this team</button>
+	</form>
+        </div>
+        
+         <div class="forms">
+	<h3> admin edit </h3>
+	<form action="/connected/auth/authenticated/admin/add" method="post">
+	    <section>
+	        <label for="add-mail">Add admin Mail</label>
+	        <input id="add-mail" name="add_mail" type="email" required>
+	        
+	        <label for="add-pass">new admin password</label>
+	        <input id="add-pass" name="add_pass" type="password" required>
+	    </section>
+		<button type="submit">register email into this team</button>
+	</form>
+	<form action="/connected/auth/authenticated/admin/delete" method="post">
+	    <section>
+	        <label for="del-mail">Delete admin Mail</label>
+	        <input id="del-mail" name="del_mail" type="email" required>
+	    </section>
+		<button type="submit">delete registerd email from this team</button>
+	</form>
+        </div>
+        
+          <div class="forms">
+              <h3> change your password </h3>
+	<form action="/connected/auth/authenticated/changePassword" method="post">
+	    <section>
+	        <label >Current Pass</label>
+	        <input id="cur-pass" name="cur_pass" type="password" required>
+	        <label> New Pass</label>
+	        <input id="new-pass" name="new_pass" type="password" required>
+	    </section>
+		<button type="submit">register new password</button>
+	</form>
+        </div>
+        
+        <div class="forms">
+	       <h3> logout </h3>
+	               <form action="/connected/auth/authenticated/logout" method="post"><button type="submit">Logout</button></form>
+        </div>
+    
+    </div>
+	
+</html>

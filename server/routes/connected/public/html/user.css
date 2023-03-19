@@ -1,0 +1,104 @@
+
+
+h1,h3{
+  text-align: center;
+}
+
+#labellist {
+  margin: 1% 20%;
+  padding: 20px;
+  border: 3px solid gray;
+}
+
+.select-label-type{
+    display: flex;
+    margin: 2%;
+}
+
+.select-label-default{
+    display: flex;
+    margin: 2% 0% 0% 0%;
+}
+
+
+#submit-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+  
+
+
+  form{
+    width: 50%;
+    margin: 0% 25% ;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+       border: 2px solid #000000;
+  }
+  label {
+    
+    font-weight: bold;
+  }
+  input[type="text"], select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+input[type="radio"]{
+    margin-left: 30px;
+}
+
+  nav{
+border-bottom: 1px solid #ccc;
+}
+
+  nav{
+border-bottom: 1px solid #ccc;
+}
+nav ul{
+display: table;
+margin: 0px;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+border-left: 1px solid #ccc;
+}
+nav ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li a:hover{
+background-color:#3142e0;
+}
