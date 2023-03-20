@@ -9,8 +9,12 @@ Chatアプリケーション
 * Chat page
 <img width="865" alt="スクリーンショット 2023-03-20 151926" src="https://user-images.githubusercontent.com/112361650/226262667-0cd4b281-25d6-48e2-b5f0-8f232c2f1ed0.png">
 
+
+
 * admin page
 <img width="744" alt="スクリーンショット 2023-03-20 152156" src="https://user-images.githubusercontent.com/112361650/226262659-dd1fbd17-3c92-461e-ada9-065d62226a73.png">
+
+
 
 * User page
 <img width="742" alt="スクリーンショット 2023-03-20 152311" src="https://user-images.githubusercontent.com/112361650/226262664-8b7143af-9c37-4a41-b7e4-d71aa235ce08.png">
