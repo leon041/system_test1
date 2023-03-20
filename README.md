@@ -20,8 +20,7 @@ Chatアプリケーション
 <img width="742" alt="スクリーンショット 2023-03-20 152311" src="https://user-images.githubusercontent.com/112361650/226262664-8b7143af-9c37-4a41-b7e4-d71aa235ce08.png">
 
 # アップロード
-<img width="1128" alt="スクリーンショット 2022-12-12 015659" src="https://user-images.githubusercontent.com/112361650/226259464-e2b169d5-6fb0-4d6a-8ec3-f83d079886d0.png">
-
+<img width="1064" alt="スクリーンショット 2022-12-12 015659 (2)" src="https://user-images.githubusercontent.com/112361650/226264450-507a0473-056c-4230-844f-6957c90ec8cb.png">
 
 * 今回はカスタムアプリを選択
 ![スクリーンショット 2023-02-22 004452](https://user-images.githubusercontent.com/112361650/226259462-6ac2d8cd-d4af-4656-ac4b-15a4e94d4cbd.png)
