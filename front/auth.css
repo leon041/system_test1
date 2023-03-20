@@ -1,0 +1,38 @@
+
+
+.Pass-Sign{
+    width :0px 30%;
+    padding : 5% 35%;
+}
+
+
+
+
+  nav{
+border-bottom: 1px solid #ccc;
+}
+nav ul{
+display: table;
+margin: 0px;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+border-left: 1px solid #ccc;
+}
+nav ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li a:hover{
+background-color:#3142e0;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title> This is the page to connect our product </title>
+  <link rel="stylesheet" href="/connecting/connect.css" media="all">
+</head>
+<body>
+	
+	<script type="text/javascript">
+		var form = document.createElement('form');
+		var mail = document.createElement('input');
+		var teamCode = document.createElement('input');
+		form.method ='POST';
+		form.action = '/connecting/post';
+		mail.type = 'hidden';
+		mail.name = 'mail';
+		mail.value = 'aaa@mail.com';
+		teamCode.type = 'hidden';
+		teamCode.name = 'teamCode';
+		teamCode.value = 'testteam';
+		form.appendChild(mail);
+		form.appendChild(teamCode);
+		
+		document.body.appendChild(form);
+		form.submit();
+		// mail = 'aaa@mail.com' , teamCode = 'teamCode',
+		// we needs to get user mail and teamCode automatically like this.
+	
+	</script>
+    
+    
+	<div class="space">
+	</div>
+	<div class="a">
+	<!-- This is the page to create session -->
+	<h1> セッションを作成するためのページです </h1>
+	<!-- Please wait a MOMENT -->
+	<h1> しばらくお待ちください </h1>
+    </div>
+	<div class="b">
+	<!-- If you can jump automatically .... then -->
+	<h3> もし自動的に遷移しなければ重大なエラーが発生しています。 </h3>
+	<!-- BIG ERROR HAPPEND. we can get your mail and currently team -->	
+	<h4> あなたのメールと現在のチームを取得できません</h4>
+    </div>
+	<div class="c">
+	<!-- please check currently browsing setting and redirect here -->
+	<p> 現在のブラウザ設定とリダイレクト設定を確認してください </p>
+    </div>
+</body>
+</html>
